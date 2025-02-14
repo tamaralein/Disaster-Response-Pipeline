@@ -4,8 +4,9 @@
 
 1. [Installation](#installation)
 2. [Project Overview](#overview)
-3. [Instructions](#files)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
+3. [File Structure](#files)
+4. [Instructions](#files)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
@@ -17,6 +18,24 @@ Following libraries should be installed: sys, re, pickle, numpy, pandas, nltk, s
 ## Project Overview<a name="overview"></a>
 
 This project analyzes disaster data from Appen (formerly Figure 8) to build a model that classifies disaster messages that were sent during disaster events. Furthermore, the project includes a web app where new messages can be entered and classification results in several categories are visualized.
+
+## File structure<a name="files"></a>
+
+Folder "data":
+- disaster_categories.csv
+- disaster_messages.csv
+- Disaster_Response.db
+- ETL Pipeline Preparation.ipynb
+- process_data.py
+  
+Folder "models":
+- ML Pipeline Preparation.ipynb
+- model.pkl
+- train.clasifier.py
+  
+Folder "app":
+- run.py
+- ??
 
 ## Instructions<a name="instructions"></a>
 1. Run the following commands in the project's root directory to set up your database and model.
