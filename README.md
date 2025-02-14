@@ -35,4 +35,4 @@ For this project, I analyzed a dataset from Kaggle with Seattle Airbnb data. I l
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-You can find the Licensing for the data and other descriptive information at the Kaggle link here https://creativecommons.org/publicdomain/zero/1.0/.  Otherwise, feel free to use the code here as you would like! 
+The datasets were privided by Udacity. Otherwise, feel free to use the code here as you would like! 
