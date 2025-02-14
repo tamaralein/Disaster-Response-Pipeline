@@ -3,23 +3,22 @@
 ### Table of Contents
 
 1. [Installation](#installation)
-2. [Project Motivation](#motivation)
+2. [Project Overview](#overview)
 3. [Instructions](#files)
 4. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
-I worked with Visual Studio Code and Python Version 3.11.2. There should be no necessary libraries to run the code. 
+I worked with Visual Studio Code and Python Version 3.11.2. 
 
-## Project Motivation<a name="motivation"></a>
+Following libraries should be installed: sys, re, pickle, numpy, pandas, nltk, sqlalchemy, sklearn, plotly, flask
 
-For this project, I analyzed a dataset from Kaggle with Seattle Airbnb data. I looked at 3 main questions:
 
-1. Which accomodation features influence the price the most?
-2. Which neighbourhoods have the highest prices?
-3. Which time of the year is the most expensive one?
+## Project Overview<a name="overview"></a>
 
-### Instructions:
+This project analyzes disaster data from Appen (formerly Figure 8) to build a model that classifies disaster messages that were sent during disaster events. Furthermore, the project includes a web app where new messages can be entered and classification results in several categories are visualized.
+
+## Instructions<a name="instructions"></a>
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -35,4 +34,4 @@ For this project, I analyzed a dataset from Kaggle with Seattle Airbnb data. I l
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-The datasets were privided by Udacity. Otherwise, feel free to use the code here as you would like! 
+The datasets were privided by Appen. Otherwise, feel free to use the code here as you would like! 
