@@ -40,8 +40,7 @@ This project analyzes disaster data from Appen (formerly Figure 8) to build a mo
 - **run.py**: Flask file that runs app
 
 - #### Folder "templates":
--     master.html: main page of web app
--     go.html: classification result page of web app
+  master.html: main page of web app; go.html: classification result page of web app
 
 ## Instructions<a name="instructions"></a>
 1. Run the following commands in the project's root directory to set up your database and model.
