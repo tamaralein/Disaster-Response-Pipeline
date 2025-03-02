@@ -39,7 +39,7 @@ This project analyzes disaster data from Appen (formerly Figure 8) to build a mo
 ### Folder "app":
 - **run.py**: Flask file that runs app
 
-- **templates folder**: Flask file that runs app
+#### Folder "templates":
     - master.html: main page of web app
     - go.html: classification result page of web app
 
